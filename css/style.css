@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    
+max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+}
+
+.container{
+    width: 1056px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/******************************************************
+header
+*****************************/
+header{
+    
+padding: 42px 0;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo a{
+}
+.log a img{}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+    display: flex;
+}
+nav ul li{}
+nav ul li a{
+    display: block;
+    padding-left: 62px;
+    text-transform: uppercase;
+    color: #323235;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: blue;
+}
+/******************************************************
+banner- section
+*****************************/
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+/******************************************************
+blog section
+*****************************/
+
+.blog-section{
+}
+article{
+    padding:  70px 35px;
+}
+article span,article a{
+    font-size: 16px;
+    color: #9393b1;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+article h1{
+    font-size: 27px;
+    color: #9393b1;
+    font-weight: 600;
+    margin: 20px 0;
+    
+}
+article h1 a{
+    font-size: 25px;
+    color: #9393b1;
+    font-weight: 600;
+    margin: 20px 0;
+}
+article h1 a:hover{
+    color: #333;
+}
+
+
+article img{
+    width: 100%;
+}
+
+article p{
+    
+}
+
+.post{
+    
+flex-basis: 50%;
+    
+max-width: 50%;
+    
+/* padding: 30px; */
+}
+.logo a {display: block;}
+
+.Flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Footer-menu {flex-basis: 50%;max-width: 50%;}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* padding-left: 15px; */
+}
+
+
+
+/******************************************************
+                        blog section
+*********************************************************/
+
+footer{
+    background: #cfd8d8;
+    padding: 30px 0px;
+}
+.footer-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.footer-menu ul{
+}
+.footer-menu ul li{}
+.footer-menu ul li a{
+    display: block;
+    padding-right: 34px;
+    text-transform: capitalize;
+    color: #323235;
+    font-size: 13px;
+    font-weight: 500;
+}
+.footer-menu ul li a:hover{
+    color: #32323580;
+}
+
+.social-menu{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.social-menu ul{
+    justify-content: flex-end;
+}
+.social-menu ul li{}
+.social-menu ul li span{}
+.social-menu ul li a{
+    padding-left: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: #050506;
+    font-size: 13px;
+    font-weight: 500;
+}
+.social-menu ul li a:hover{
+    color: #05050685;
+}
+
+
